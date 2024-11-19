@@ -1,7 +1,4 @@
 
-```bash
-  git clone https://github.com/thiagocordeirooo/aulas-frontend-senai.git
-```
 
 Entre no diretório do projeto:
 
