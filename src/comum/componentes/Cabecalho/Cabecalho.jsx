@@ -11,8 +11,10 @@ function Cabecalho() {
   return (
     <header className="cabecalho_root">
       <Link to="/">
-        <img src="/vite.svg" height={40} />
+        <img src="/subarulogo.png" height={50} />
       </Link>
+       
+       <p className='titulopag'> Macacao </p>
 
       {usuarioLogado && (
         <Link to="/meu-perfil">

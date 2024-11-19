@@ -25,9 +25,9 @@ const PaginaNovoUsuario = () => {
       toast.error(
         <div>
           <img
-            src="./assets/erro.gif"// Coloque aqui o link para o seu GIF
+            src="/erro.gif"// Coloque aqui o link para o seu GIF
             alt="Erro"
-            // style={{ width: '500px', marginRight: '10px' }}
+            style={{ width: '300px', marginBottom: '20px',  }}
           />
           Preencha todos os campos.
         </div>,
