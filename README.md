@@ -6,7 +6,7 @@
 Entre no diretório do projeto:
 
 ```bash
-  cd aulas-frontend-pwa
+  cd Projetinho
 ```
 
 Instale as dependências:
