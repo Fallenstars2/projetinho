@@ -1,11 +1,32 @@
 .principal_root {
-  background-color: var(--cor-fundo-padrao);
+  /* background-color: var(--cor-fundo-padrao); */
+  background-image: url('../Backgrounds/backmain.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   padding: 16px;
-
+  position: relative;
   display: flex;
+  justify-content: flex-end;
   flex-direction: column;
+  height: 100vh;
   gap: 16px;
 }
+  .principal_root::before {
+  content: '';
+  position: absolute;
+  background-image: inherit;  /* Herda a imagem de fundo da classe principal_root */
+  background-size: inherit;
+  background-position: inherit;
+  background-repeat: inherit;
+  filter: blur(10px);  /* Aplica o desfoque à imagem de fundo */
+  z-index: -1;  /* Garante que o pseudo-elemento fique atrás do conteúdo */
+  top: 0;
+  left: 0;
+  width: 100%;  /* Ocupa 100% da largura da .principal_root */
+  height: 100%;  /* Ocupa 100% da altura da .principal_root */
+}
+ 
 
 .principal_titulo {
   display: flex;

@@ -1,24 +1,27 @@
 .botao-customizado_root {
   padding: 16px;
   border: none;
-
-  font-size: 14px;
-  opacity: 0.8;
+  border-radius: 6px;
+  font-size: 16px;
+  opacity: 1;
   cursor: pointer;
   color: var(--cor-texto-claro);
-  font-weight: 400;
+  font-weight: bold;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 
 .botao-customizado_root:hover {
   opacity: 1;
+  
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 
 .botao-customizado_primario {
-  background-color: var(--cor-primaria);
+  background-color: red;
 }
 
 .botao-customizado_secundario {
-  background-color: var(--cor-secundaria);
+  background-color: rgb(151, 0, 0);
 }
 
 .botao-customizado_padrao {
