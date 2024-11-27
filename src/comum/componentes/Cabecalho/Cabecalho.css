@@ -1,8 +1,8 @@
 .cabecalho_root {
-  height: 48px;
+  height: 50px;
   background-color: rgb(145, 0, 0);
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   padding: 0 16px;
 
@@ -12,7 +12,6 @@
   padding-left: 16px; */
 }
 
-.PFP {
-  max-width: 10px;
-  object-fit: [];
+.cabecalho_root > .avatar_perfil {
+  width: 50%;
 }

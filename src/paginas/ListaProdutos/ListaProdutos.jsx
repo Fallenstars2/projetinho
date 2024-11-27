@@ -4,22 +4,22 @@ import './ListaProdutos.css';
 const ListaProdutos = () => {
   const produtos = [
     {
-      nome: 'Smartphone Samsung',
+      nome: 'Lavagem Rápida',
       preco: 2999,
       cores: ['#29d8d5', '#252a34', '#fc3766'],
     },
     {
-      nome: 'Xiaomi PocoPhone',
+      nome: 'Lavagem Detalhada',
       preco: 5789,
       cores: ['#29d8d5', '#f37c59', '#ffd045'],
     },
     {
-      nome: 'Xiaomi Poco Watch',
+      nome: 'Lavagem a Seco',
       preco: 4999,
       cores: ['#ffd045', '#d4394b', '#f37c59'],
     },
     {
-      nome: 'Xiaomi Poco Pods',
+      nome: 'Lavagem a Seco',
       preco: 1499,
       cores: ['#365069', '#47c1c8', '#f95786'],
     },

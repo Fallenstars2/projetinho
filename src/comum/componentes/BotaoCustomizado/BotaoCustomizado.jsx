@@ -1,5 +1,7 @@
 import './BotaoCustomizado.css';
 
+
+
 const BotaoCustomizado = ({ cor, aoClicar, children }) => {
   const estilos = ['botao-customizado_root'];
 

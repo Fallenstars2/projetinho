@@ -7,22 +7,27 @@
   cursor: pointer;
   color: var(--cor-texto-claro);
   font-weight: bold;
-  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  box-shadow: rgb(153, 1, 167) 10px 10px 10px -5px;
   margin-bottom: 25px;
 }
 
 .botao-customizado_root:hover {
   opacity: 1;
   
-  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  box-shadow: rgb(70, 55, 15) 0px 20px 30px -10px;
 }
 
 .botao-customizado_primario {
-  background-color: red;
+  background-color: rgb(220, 72, 26);
+  font-family: 'TT Lakes Neue Trial', sans-serif;
+  
 }
 
 .botao-customizado_secundario {
-  background-color: rgb(151, 0, 0);
+  background-color: rgb(220, 72, 26);
+  font-family: 'TT Lakes Neue Trial', sans-serif;
+  color: black;
+  margin-bottom: 20px;
 }
 
 .botao-customizado_padrao {

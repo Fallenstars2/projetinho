@@ -33,5 +33,7 @@
   align-items: center;
   gap: 8px;
   color: rgb(255, 255, 255);
-  text-shadow: rgb(207, 1, 1) 1px 0 10px;
+  text-shadow: rgba(231, 114, 4, 0.904) 1px 0 10px;
+  font-family: 'TT Lakes Neue Trial', sans-serif;
+  margin-bottom: 20px;
 }

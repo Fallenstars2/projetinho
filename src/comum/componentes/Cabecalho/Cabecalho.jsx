@@ -80,8 +80,8 @@ function Cabecalho() {
       <p className="titulopag">Macacao</p>
 
       {usuarioLogado && (
-        <Link className='PFP' to="/meu-perfil">
-          <Avatar
+        <Link  to="/meu-perfil">
+          <Avatar 
             nome={usuarioLogado?.nome}
             perfil={true}
             imagem={usuarioLogado?.foto || ''}

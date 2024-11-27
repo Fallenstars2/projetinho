@@ -53,7 +53,7 @@ const PaginaLogin = () => {
   };
 
   return (
-    <Principal titulo="Bem Vindo">
+    <Principal titulo="">
       {/* <div className="campo">
         <label>Email</label>
         <input type="email" placeholder="Digite seu email" value={email} onChange={(e) => setEmail(e.target.value)} />
