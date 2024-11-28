@@ -4,10 +4,10 @@
   import './Principal.css';
   import Rodape from '../Rodape/Rodape';
 
-  function Principal({ voltarPara, titulo, children }) {
+  function Principalmain({ voltarPara, titulo, children }) {
     return (
       <>
-        <Cabecalho />
+        {/* <Cabecalho /> */}
         <main className="principal_root">
           <div className="principal_titulo">
             {voltarPara && (
@@ -21,9 +21,9 @@
 
           {children}
         </main>
-<Rodape />
+{/* <Rodape /> */}
       </>
     );
   }
 
-  export default Principal;
+  export default Principalmain;

@@ -4,6 +4,8 @@ import { toast } from 'react-toastify';
 import BotaoCustomizado from '../../comum/componentes/BotaoCustomizado/BotaoCustomizado';
 import Principal from '../../comum/componentes/Principal/Principal';
 import ServicoAutenticacao from '../../comum/servicos/ServicoAutenticacao';
+import Principalmain from '../../comum/componentes/Principal/Principalmain';
+
 
 const instanciaServicoAutenticacao = new ServicoAutenticacao();
 
@@ -53,7 +55,7 @@ const PaginaLogin = () => {
   };
 
   return (
-    <Principal titulo="">
+    <Principalmain> 
       {/* <div className="campo">
         <label>Email</label>
         <input type="email" placeholder="Digite seu email" value={email} onChange={(e) => setEmail(e.target.value)} />
@@ -70,15 +72,15 @@ const PaginaLogin = () => {
       </div> */}
 
       <BotaoCustomizado cor="secundaria" aoClicar={login2}>
-        Ja possuo conta 
+        JA POSSUO CONTA
       </BotaoCustomizado>
 
       <BotaoCustomizado cor="secundaria" aoClicar={semsenha}>
-        Não possuo conta 
+        nÃO POSSUO CONTA
       </BotaoCustomizado>
 
       
-    </Principal>
+    </Principalmain>
   );
 };
 

@@ -1,13 +1,13 @@
 .botao-customizado_root {
   padding: 16px;
   border: none;
-  border-radius: 6px;
+  border-radius: 10px;
   font-size: 16px;
   opacity: 1;
   cursor: pointer;
   color: var(--cor-texto-claro);
   font-weight: bold;
-  box-shadow: rgb(153, 1, 167) 10px 10px 10px -5px;
+  box-shadow: rgb(3, 4, 94) 10px 10px 10px -5px;
   margin-bottom: 25px;
 }
 
@@ -18,15 +18,17 @@
 }
 
 .botao-customizado_primario {
-  background-color: rgb(220, 72, 26);
+  background-color: rgb(4, 0, 238);
   font-family: 'TT Lakes Neue Trial', sans-serif;
   
 }
 
 .botao-customizado_secundario {
-  background-color: rgb(220, 72, 26);
-  font-family: 'TT Lakes Neue Trial', sans-serif;
-  color: black;
+  background-color: rgb(202, 240, 248); 
+  /* font-family: 'TT Lakes Neue Trial', sans-serif; */
+  font-family: 'Anton', sans-serif;
+  font-size: medium;
+  color: rgb(0, 119, 182);
   margin-bottom: 20px;
 }
 
